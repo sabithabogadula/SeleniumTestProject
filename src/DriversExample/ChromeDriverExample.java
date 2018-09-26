@@ -9,7 +9,7 @@ public class ChromeDriverExample {
 	
 	public static void main(String[] args) {
 		
-		
+		System.out.println("in chrome driver example");
 		System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
