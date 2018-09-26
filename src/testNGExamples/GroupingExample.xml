@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" parallel="false">
+  <test name="Sanity test">
+  	<groups> 
+  		<run>
+  			<include name="sanity"/>
+  			<include name="regression"/>
+  		</run>
+  		
+  	</groups>
+    <classes>
+      <class name="testNGExamples.GroupingTCsExample"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

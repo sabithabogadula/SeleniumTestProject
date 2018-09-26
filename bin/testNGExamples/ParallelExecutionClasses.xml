@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" parallel="classes" thread-count="3">
+  <test name="Default test">
+    <classes>
+      <class name="testNGExamples.TestNGExample1"/>
+      <class name="testNGExamples.TestNGExample2"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite>
